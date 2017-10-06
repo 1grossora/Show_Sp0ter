@@ -1,8 +1,8 @@
 # Sp0ter
 
 reconstructing events like [this](http://www.phy.bnl.gov/wire-cell/bee/set/9/event/0/).
-## Single Pi0 Tomographical Event Reconstruction
-This framework is designed to be framework to analize single pi0 events in the MicroBooNE LArTPC. The pi0 almost exclusivly decays into two photons which produce electromagnetic showers in the liquid argon. Using the [Wire-Cell](http://www.phy.bnl.gov/wire-cell/) we are able to produce a large data set of 3D-Charge weighted space points. 
+## Single Pi0 Topographical Event Reconstruction
+This framework is designed to be framework to analyze single pi0 events in the MicroBooNE LArTPC. The pi0 almost exclusively decays into two photons which produce electromagnetic showers in the liquid argon. Using the [Wire-Cell](http://www.phy.bnl.gov/wire-cell/) we are able to produce a large data set of 3D-Charge weighted space points. 
 
 ### Code Requirements
 
@@ -30,13 +30,13 @@ Clustering and merging directories contain functions to deal with 3D clustering 
 
 SParams directory contains function calls for metrics of the objects.
 
-TS_Qual directory contains tests to deal with cosmics remove and shower/track sepearation. 
+TS_Qual directory contains tests to deal with cosmics remove and shower/track separation. 
 
 Selection directory contains the script that governs all process steps. 
 
 
 ##### Run Directory 
-This contains scripts for executing the whole chain, producing analysis and selection cuts, and also 3D visulizations
+This contains scripts for executing the whole chain, producing analysis and selection cuts, and also 3D visualizations
 
 
 ### Extras
